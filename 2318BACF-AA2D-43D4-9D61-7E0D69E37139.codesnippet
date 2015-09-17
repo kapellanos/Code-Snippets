@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>idtest</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import &lt;XCTest/XCTest.h&gt;
+#import &lt;OCHamcrest/OCHamcrest.h&gt;
+#import &lt;OCMockito/OCMockito.h&gt;
+#import "idealista-Swift.h"</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2318BACF-AA2D-43D4-9D61-7E0D69E37139</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates the import statements for testing purposes</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Test imports</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
