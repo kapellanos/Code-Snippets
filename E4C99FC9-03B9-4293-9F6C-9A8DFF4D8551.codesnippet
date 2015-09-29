@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nremove</string>
+	<string>ae</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSNotificationCenter.defaultCenter().removeObserver(self)</string>
+	<string>XCTAssertEqual(&lt;#T##expression1: [T : U]##[T : U]#&gt;, &lt;#T##expression2: [T : U]##[T : U]#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>350CDA4D-1933-4F12-A38C-150214ECA31C</string>
+	<string>E4C99FC9-03B9-4293-9F6C-9A8DFF4D8551</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Remove self from observer notifications</string>
+	<string>Create an XCTAssertEqual without comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Remove self from observer notifications</string>
+	<string>Assert Equal</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
