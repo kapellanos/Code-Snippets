@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>constraintsParent</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[&lt;#view#&gt;]-0-|", options: [], metrics: nil, views: ["&lt;#viewName#&gt;":&lt;#view#&gt;])
+        let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[&lt;#view#&gt;]-0-|", options: [], metrics: nil, views: ["&lt;#viewName#&gt;":&lt;#view#&gt;])
+        &lt;#superviewName#&gt;.addConstraints(horizontalConstraints + verticalConstraints)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8D5ED363-42FF-4976-9472-429D85EAD759</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates both horizontal and vertical constraints with 0 space with the parent</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Constraints with parent</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
