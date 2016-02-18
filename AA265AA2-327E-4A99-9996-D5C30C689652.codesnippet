@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>apiUrlProvider</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#name#&gt;: IDAPIURLProvider
+{
+    func obtainUrlForRequest(request: String, params: JSONDictionary?) throws -&gt; String
+    {
+        guard let country = appCountry else { throw IDURLProviderError.CountryNotDefined }
+        switch request {
+            &lt;#cases#&gt;
+        default: throw IDURLProviderError.InvalidRequest(request)
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AA265AA2-327E-4A99-9996-D5C30C689652</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create new API URL Provider</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create new API URL Provider</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

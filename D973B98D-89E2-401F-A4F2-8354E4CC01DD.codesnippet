@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>idservice</string>
+	<string>service</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@objc class &lt;#service name#&gt;: IDBasicService
+	<string>private func &lt;#func name#&gt;(params: JSONDictionary, url: String, completion: JSONDictionary -&gt; Void, errorHandler: ErrorType -&gt; Void)
 {
-    private lazy var oauthServiceManager: IDOauthManager = {
-        return IDOauthManager(delegate: self)
-        }()
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>12BCE511-C908-4D30-A93A-07B69D92C59B</string>
+	<string>D973B98D-89E2-401F-A4F2-8354E4CC01DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates a new Swift Service</string>
+	<string>Creates a service method for call the API</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Creates a new Swift Service</string>
+	<string>Service method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

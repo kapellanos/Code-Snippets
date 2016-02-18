@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>serviceCall</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>configurator.&lt;#request serializer#&gt;(manager)
+configurator.&lt;#response serializer#&gt;(manager)
+
+manager.id&lt;#method#&gt;Path(url, parameters: &lt;#params#&gt;, success: { (operation, response) -&gt; Void in
+        if let responseDict = response as? JSONDictionary {
+                completion(responseDict)
+            } else {
+            errorHandler(IDServiceError.ResponseFormatNotValid)
+            }
+            }) { (operation, error) -&gt; Void in
+                errorHandler(error)
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>48E61C4F-4038-4A1E-BEFE-41255BA6C3B3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a API call</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create a API call</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
