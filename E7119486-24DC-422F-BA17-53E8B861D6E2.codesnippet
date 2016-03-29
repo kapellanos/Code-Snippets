@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ann</string>
+	<string>selector</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>XCTAssertNotNil(&lt;#T##expression: Any?##Any?#&gt;)</string>
+	<string>static let &lt;#selector name#&gt; = #selector(&lt;#class#&gt;.&lt;#method#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>90FFD51F-EECA-4753-83C1-2A81EE52D179</string>
+	<string>E7119486-24DC-422F-BA17-53E8B861D6E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Assert Not Nil</string>
+	<string>Creates a new static let selector in private selector extension</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Assert Not Nil</string>
+	<string>Selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
